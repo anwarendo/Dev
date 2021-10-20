@@ -1,4 +1,4 @@
-## Full stack development
+### Full stack development
 
 - ### `Backend api installation`
     - Install docker:
@@ -61,5 +61,5 @@
     ```sh
     docker run --rm -it -v $(pwd)/app-fe/src:/home/react/app/src -v $(pwd)/app-fe/public:/home/react/app/public -p 3000:3000 --name react-app react-axios
     ```
-## The Deployment
-  ### ___ ;)
+### The Deployment
+  #### ___ ;)
