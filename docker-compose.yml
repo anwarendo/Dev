@@ -82,11 +82,12 @@ services:
         networks:
             - sail
     react_app:
-        build: .
+        build: ./react
         image: 'react_api'
         ports: 
             - '3000:3000'
         volumes:
+            - './react/app/build:/home/react/app/build:rw'
             - './react/app/public:/home/react/app/public'
             - './react/app/src:/home/react/app/src'
         networks:
