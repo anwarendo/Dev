@@ -13,7 +13,7 @@ import axios from "axios";
 import React from "react";
 
 // const baseURL = "https://jsonplaceholder.typicode.com/posts/1";
-const baseURL = "http://172.18.0.6/api/posts/1";
+const baseURL = "http://localhost:80/api/posts/";
 export default function App() {
   const [post, setPost] = React.useState(null);
 

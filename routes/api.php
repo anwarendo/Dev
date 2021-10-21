@@ -17,8 +17,8 @@ Route::get('/posts', function(){
     return response()->json([
         'userId'=> 1,
         'id'=> 1,
-        'title'=>"hello there",
-        'body'=>"hey there, this is the first api contact!!!",
+        'title'=>"Masha Allah",
+        'body'=>"Alhamdulillah",
     ]);
 });
 
