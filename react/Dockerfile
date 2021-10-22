@@ -19,7 +19,8 @@ WORKDIR /home/react/app
 
 RUN npm install axios && \
     npm i laravel-echo
-    
+
+# FAST_REFRESH=false  <- inside the .env file
 COPY .env /home/react/app
 # WORKDIR /home/react
 
